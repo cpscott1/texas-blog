@@ -2,7 +2,8 @@
                                     <div class="row mb-40 list-style-2">
                                         <div class="col-md-4">
                                             <div class="post-thumb position-relative border-radius-5">
-                                                <div class="img-hover-slide border-radius-5 position-relative" style="background-image: url({{$post->thumbnail}})">
+                                                <div class="img-hover-slide border-radius-5 position-relative" style="background-image: url($post->thumbnail
+                                                 )">
                                                     <a class="img-link" href="single.html"></a>
                                                 </div>
                                                 <ul class="social-share">
@@ -23,7 +24,7 @@
                                                    
                                                 </div>
                                                 <h5 class="post-title font-weight-900 mb-20">
-                                                    <a href="single.html"
+                                                    <a href="single.html">
                                                         {{$post->title}}
                                                     </a>
                                                     <span class="post-format-icon"><i class="elegant-icon icon_star_alt"></i></span>
@@ -34,4 +35,4 @@
                                             </div>
                                         </div>
                                     </div>
-                                </article>
+                                </article> 

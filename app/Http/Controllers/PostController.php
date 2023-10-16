@@ -14,7 +14,7 @@ class PostController extends Controller
     public function index()
     {
         $posts = Post::query()->where('active', '=', 1)->whereDate('published_at', '<', Carbon::now())->orderBy('published_at', 'desc')->paginate();
-       return view('layouts/app', compact('posts'));
+       return view('home', compact('posts'));
     }
 
     /**
