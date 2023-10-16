@@ -116,7 +116,7 @@
             <div class="container">
                 <div class="row pt-20 pb-20">
                     <div class="col-md-3 col-xs-6">
-                        <a href="index.html"><img class="logo" src="assets/imgs/theme/logo.png" alt=""></a>
+                        <a href="index.html">Horns Takes</a>
                     </div>
                    
                 </div>

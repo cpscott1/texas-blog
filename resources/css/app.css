@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: column;
+}
